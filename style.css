@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+body {
+    background-color: rgb(7, 7, 78);
+    color: f1faee;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 77px;
+    background-color: rgb(2, 2, 44);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: 9D44C0;
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background: rgb(123, 123, 217);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+
+.left {
+    font-size: 2rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.first>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    color: d6ccc2;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.second {
+    margin: 10px 0;
+}
+
+.colour {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.second {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.second h1 {
+    font-size: 1.7rem;
+}
+
+.second .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.second .vertical{
+    height: 93px;
+    width: 2px;
+    background: white;
+    margin: 0 100px;
+}
+
+.grey {
+    color: rgb(138, 133, 133);
+}
+
+.heading span{
+    color: blueviolet;
+}
+
+.row-2 .skills {
+    flex: 1 1 40rem;
+}
+.row-2 .skills .progress {
+    padding: 1rem 0;
+}
+row-2 .skills .progress h3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 0;
+    font-size: 1.7rem;
+    color: #111;
+    font-weight: 400;
+}
+.row-2 .skills .progress .bar {
+    width: 100%;
+    background: #ccc;
+    overflow: hidden;
+    height: 1rem;
+    border-radius: 50rem;
+}
+.row-2 .skills .progress:nth-child(1) .bar span {
+    width: 95%;
+}
+.row-2 .skills .progress:nth-child(2) .bar span {
+    width: 80%;
+}
+.row-2 .skills .progress:nth-child(3) .bar span {
+    width: 65%;
+}
+.row-2 .skills .progress:nth-child(4) .bar span {
+    width: 85%;
+}
+.row-2 .skills .progress .bar span.a {
+    display: block;
+    height: 100%;
+    background: blueviolet;
+    border-radius: 50rem;
+}
+.row-2 .skills .progress .bar span.b {
+    display: block;
+    height: 100%;
+    background: blueviolet;
+    border-radius: 50rem;
+}
+.row-2 .skills .progress .bar span.c {
+    display: block;
+    height: 100%;
+    background: blueviolet;
+    border-radius: 50rem;
+}
+.row-2 .skills .progress .bar span.d{
+    display: block;
+    height: 100%;
+    background: blueviolet;
+    border-radius: 50rem;
+}
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: #111;
+    text-transform: uppercase;
+
+}
+.heading1 span {
+    color: blueviolet;
+    text-transform: uppercase;
+}
+.row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.row-1 .image {
+    flex: 1 1 25rem;
+}
+.row-1 .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1rem solid #fff;
+    border-radius: 35.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+}
+.row-1 .content {
+    flex: 1 1 50rem;
+}
+row-1 .content h2 {
+    color: #333;
+    font-size: 3.5rem;
+}
+.row-1 .content p {
+    color: #c9b7b7;
+    font-size: 0.5rem;
+    padding: 0.4rem 0;
+}
+.row-1 .content .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+}
+.row-1 .content .box-container .box {
+    flex: 1 1 20rem;
+}
+.row-1 .content p {
+    color: #dacbcb;
+    font-size: 1.7rem;
+    padding: 0.5rem 0;
+}
+.row-1 .content .box-container .box span {
+    color: blueviolet;
+}
